@@ -64,14 +64,20 @@ sites.example.txt → sites.txt
 Add one company URL per line.
 4️⃣ Run
 python run_watchdog.py
-🧠 Smart Features
+
+---
+
+##🧠 Smart Features
 Deduplicates jobs across runs
 Handles navigation failures gracefully
 Detects QA keywords dynamically
 Extracts job links intelligently
 Structured test folder for validation
 Logging for debugging and traceability
-📌 Why I Built This
+
+---
+
+##📌 Why I Built This
 As part of my transition into QA Automation,
 I built a real-world monitoring tool to:
 Practice browser automation
@@ -79,11 +85,17 @@ Work with APIs (Gmail)
 Design maintainable test architecture
 Handle production-like edge cases
 Build a portfolio project that solves a real problem
-🔐 Security
+
+---
+
+##🔐 Security
 The following files are excluded from version control:
 token.json
 client_secret.json
 seen_jobs.json
-👨‍💻 Author
+
+---
+
+##👨‍💻 Author
 Yehuda Gutmann
 Junior QA | Automation in Progress
