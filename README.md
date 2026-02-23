@@ -107,7 +107,7 @@ https://company1.com
 https://company2.com
 https://company3.io
 
-```
+
 ---
 
 ## 4️⃣ Run the Watchdog
@@ -116,7 +116,7 @@ python run_watchdog.py
 
 If new QA-related jobs are detected, an email alert will be sent.
 
-
+```
 ---
 
 ## 🧠 Smart Features
