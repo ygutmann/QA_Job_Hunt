@@ -85,3 +85,82 @@ QA_Job_Hunt/
 ```bash
 pip install -r requirements.txt
 playwright install
+## 2️⃣ Setup Gmail API
+
+1. Create a project in Google Cloud Console  
+2. Enable Gmail API  
+3. Create OAuth credentials  
+4. Download client_secret.json  
+5. Place it in the project root  
+
+On first run, token.json will be generated automatically.
+
+---
+
+## 3️⃣ Configure Sites
+
+cp sites.example.txt sites.txt
+
+Edit sites.txt and add one company URL per line:
+
+https://company1.com
+https://company2.com
+https://company3.io
+
+---
+
+## 4️⃣ Run the Watchdog
+
+python run_watchdog.py
+
+If new QA-related jobs are detected, an email alert will be sent.
+
+---
+
+## 🧠 Smart Features
+
+- Deduplicates job links across runs  
+- Prevents repeated alerts for the same position  
+- Handles navigation failures gracefully  
+- Detects QA keywords dynamically  
+- Extracts job links intelligently  
+- Modular Page Object structure  
+- Pytest test coverage included  
+- Logging for traceability and debugging  
+
+---
+
+## 🧪 Running Tests
+
+pytest
+
+---
+
+## 🔐 Security
+
+The following files are intentionally excluded from version control:
+
+- token.json  
+- client_secret.json  
+- seen_jobs.json  
+- sites.txt  
+
+---
+
+## 📌 Why I Built This
+
+As part of my transition into QA Automation,  
+I built a real-world monitoring tool to:
+
+- Practice browser automation with Playwright  
+- Work with external APIs (Gmail API)  
+- Design maintainable test architecture  
+- Handle real-world edge cases (timeouts, duplicate detection)  
+- Build a portfolio project that solves an actual problem  
+
+---
+
+## 👨‍💻 Author
+
+Yehuda Gutmann  
+Junior QA | Automation in Progress  
