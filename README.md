@@ -47,9 +47,9 @@ QA_Job_Hunt/
 
 ## 🚀 How To Run
 
-### 1️⃣ Install dependencies
-
+### 
 ```bash
+1️⃣ Install dependencies
 pip install -r requirements.txt
 playwright install
 2️⃣ Setup Gmail API
@@ -64,7 +64,7 @@ sites.example.txt → sites.txt
 Add one company URL per line.
 4️⃣ Run
 python run_watchdog.py
-
+׳׳׳
 ---
 
 ##🧠 Smart Features
