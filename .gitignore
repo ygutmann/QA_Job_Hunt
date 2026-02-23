@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Playwright
+playwright/.cache/
+
+# Gmail / secrets
+token.json
+client_secret.json
+
+# Watchdog state
+seen_jobs.json
+
+# IDE / OS
+.idea/
+.DS_Store
+
+*.log
+which_python.txt
+
+sites.txt

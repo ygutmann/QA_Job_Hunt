@@ -1,0 +1,3 @@
+# Add one company URL per line
+https://company1.com
+https://company2.com
