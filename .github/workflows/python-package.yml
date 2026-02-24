@@ -28,6 +28,11 @@ jobs:
         run: |
           python -m playwright install --with-deps chromium
 
+      # ✅ יוצר sites.txt בצורה חסויה מתוך Secret (לא נשמר בריפו)
+      - name: Create sites.txt from secret
+        run: |
+          echo "${{ secrets.SITES_TEXT }}" > sites.txt
+
       # חשוב: לשמור state של seen_jobs.json בין ריצות
       - name: Cache seen jobs
         uses: actions/cache@v4
