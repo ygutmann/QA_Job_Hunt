@@ -412,7 +412,7 @@ def main() -> int:
         send_email(subject, body_html)
         logging.info("Email sent.")
         logging.info(f"Run finished. New sites: {len(new_results)}, New links: {total_links}")
-        return 1 if new_results else 0
+        return 0
 
     logging.info("No new QA items found.")
     logging.info("Run finished. New: 0")
