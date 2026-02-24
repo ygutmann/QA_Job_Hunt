@@ -22,3 +22,16 @@ seen_jobs.json
 which_python.txt
 
 sites.txt
+
+
+# Env
+.env
+*.env
+
+# Pytest / reports
+.pytest_cache/
+report.xml
+*.xml
+
+# Cache
+.cache/
